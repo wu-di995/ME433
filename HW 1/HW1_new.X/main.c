@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include <xc.h>           // processor SFR definitions
 #include <sys/attribs.h>  // __ISR macro
-#include "me433.h"
 
 // DEVCFG0
 #pragma config DEBUG = OFF // disable debugging
@@ -63,8 +62,7 @@ int main() {
     
     // do your TRIS and LAT commands here 
     
-    //me433_startup 
-    me433_startup();
+    
     
     __builtin_enable_interrupts();
     
