@@ -1,10 +1,3 @@
-/* 
- * File:   me433.c
- * Author: Wu Di
- *
- * Created on 14 April, 2020, 12:16 PM
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "me433.h"
