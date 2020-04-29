@@ -37,7 +37,7 @@ void drawString(unsigned char x, unsigned char y, char* message, int showFPS){
         j=0;
         drawChar(xpos,ypos,message[i]);
         if (showFPS==1){
-            fps = (24000000/_CP0_GET_COUNT());
+            fps = (24000000.0/_CP0_GET_COUNT());
             sprintf(fps_array,"FPS:%.2f",fps);
             while (fps_array[j]!=0){
                 drawChar(fps_x+j*5,fps_y,fps_array[j]);
